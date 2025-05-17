@@ -70,7 +70,9 @@ endmodule
 ![Screenshot (11)](https://github.com/user-attachments/assets/3c0a3931-2dda-41da-b991-a7e0ff6b8bde)
 
 **TIMING DIGRAMS FOR SISO Shift Register**
-![Screenshot 2025-05-17 131710](https://github.com/user-attachments/assets/807f5766-9248-48fb-937c-11ca2af2e30a)
+
+![Screenshot 2025-05-17 132708](https://github.com/user-attachments/assets/85a08c72-3ecc-4255-a716-468793605f4a)
+
 
 **RESULTS**
 Thus the OUTPUT of 8-bit shift register is verified by synthesizing and simulating the VERILOG code.

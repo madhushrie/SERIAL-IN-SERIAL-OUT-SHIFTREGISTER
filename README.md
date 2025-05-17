@@ -27,16 +27,50 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 /* write all the steps invloved */
 
+Step1: Define the specifications and initialize the design.
+
+Step2: Declare the name of the entity and architecture by using VHDL source code.
+
+Step3: Write the source code in VERILOG.
+
+Step4: Check the syntax and debug the errors if found, obtain the synthesis report.
+
+Step5: Verify the output by simulating the source code.
+
+Step6: Write all possible combinations of input using the test bench.
+
+Step7: Obtain the place and route report.
+
+
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:
+Developed by:Madhu Shrie J
+RegisterNumber:212224100034
 
 */
+```
+module ex10d(clk, sin, q);
+input clk;
+input sin;
+output [3:0] q;
+reg [3:0] q;
+always @(posedge clk)
+begin
+q[0] <= sin;
+q[1] <= q[0];
+q[2] <= q[1];
+q[3] <= q[2];
+end
+endmodule
+```
 
 **RTL LOGIC FOR SISO Shift Register**
+![Screenshot (11)](https://github.com/user-attachments/assets/3c0a3931-2dda-41da-b991-a7e0ff6b8bde)
 
 **TIMING DIGRAMS FOR SISO Shift Register**
+![Screenshot 2025-05-17 131710](https://github.com/user-attachments/assets/807f5766-9248-48fb-937c-11ca2af2e30a)
 
 **RESULTS**
+Thus the OUTPUT of 8-bit shift register is verified by synthesizing and simulating the VERILOG code.
